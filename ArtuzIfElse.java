@@ -641,7 +641,7 @@ public class ArtuzIfElse
     System.out.println("Total:                                                                                                        " +"P"+df2.format(total));
     System.out.println("Discount:                                                                                                     " +discountText);
     System.out.println("Total Discount:                                                                                               " +"P"+df2.format((total * discountTotal)));
-    System.out.println("Total:                                                                                                       " +"P"+df2.format(( total - (total * discountTotal))));
+    System.out.println("Total:                                                                                                        " +"P"+df2.format(( total - (total * discountTotal))));
     
 
    }
